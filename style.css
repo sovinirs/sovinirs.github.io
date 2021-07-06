@@ -1,4 +1,73 @@
-#heading-style {
-  margin-top: 16px;
-  margin-left: 16px;
+#intro-text {
+  font-family: "Roboto", sans-serif;
+}
+
+#typewriter {
+  font-family: "Roboto", sans-serif;
+}
+
+.sub-text-main {
+  font-size: 50px;
+}
+
+.sub-text-sub {
+  font-size: 50px;
+  color: #888888;
+}
+
+.navbar-links {
+  font-size: 20px;
+}
+
+.tool-card {
+  height: 130px;
+  width: 130px;
+}
+
+.far {
+  font-size: 50px;
+}
+
+.fab {
+  font-size: 50px;
+}
+
+@media only screen and (min-width: 767px) {
+  #main-banner-typewriter {
+    padding-left: 6vw;
+  }
+
+  .projects-banner-indentation {
+    padding-left: 6vw;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar-links {
+    display: none;
+  }
+
+  .navbar-links-shown {
+    margin-right: 10px;
+  }
+
+  #main-banner-typewriter {
+    padding-left: 3vw;
+  }
+
+  .projects-banner-indentation {
+    padding-left: 7vw;
+  }
+
+  .sub-text-main {
+    font-size: 40px;
+  }
+
+  .sub-text-sub {
+    font-size: 40px;
+  }
+
+  .sub-text-sub-sub {
+    padding-right: 7vw;
+  }
 }
