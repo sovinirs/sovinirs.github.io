@@ -61,6 +61,10 @@
 }
 
 @media only screen and (max-width: 767px) {
+  #portrait-pic {
+    display: none;
+  }
+
   .experience-cards {
     padding-right: 7vw;
   }
