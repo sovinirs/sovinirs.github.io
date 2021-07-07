@@ -19,3 +19,30 @@ typewriter
   .pauseFor(300)
   .deleteChars(13)
   .start();
+
+$("#experience-link").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#projects-banner").offset().top,
+    },
+    1000
+  );
+});
+
+$("#skills-link").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#skills-banner").offset().top,
+    },
+    1000
+  );
+});
+
+$("#contacts-link").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#contacts-banner").offset().top,
+    },
+    1000
+  );
+});
