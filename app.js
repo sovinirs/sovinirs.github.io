@@ -1,3 +1,5 @@
+AOS.init();
+
 var app = document.getElementById("typewriter");
 
 var typewriter = new Typewriter(app, {
